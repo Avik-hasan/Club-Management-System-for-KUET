@@ -73,4 +73,4 @@ Console UI Design: Creating a user-friendly, menu-driven interface in the consol
 
 [Ohona Rahman] - 2407014 - (Department of Computer Science and Engineering)
 
-(Project for [Course Name/Code], Khulna University of Engineering and Technology)
+(Project for [CSE-1101,1102], Khulna University of Engineering and Technology)
