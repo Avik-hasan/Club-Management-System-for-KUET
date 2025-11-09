@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include "AdiminWorkspace.h"
 void adminmode()
 {
     int ID;
@@ -25,6 +26,7 @@ void adminmode()
    while(fscanf(fp1,"%s %d %d",clubname,&id,&pass)!=EOF){
      if(strcmp(Club,clubname)==0&&(id==ID)&&(pass==password)){
        printf("welcome %s admin\n",clubname);
+         
        is_found=1;
        break;
      }
@@ -33,4 +35,5 @@ void adminmode()
     printf("Invalid \n");
    fclose(fp1);
     getchar();
+
 }
