@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main() {
+void adminworkspace() {
     void (*menu_functions[])() = {
         addMember,
         viewAllMembers,
@@ -36,5 +36,4 @@ int main() {
             getchar();
         }
     } while (choice != 0);
-    return 0;
 }
