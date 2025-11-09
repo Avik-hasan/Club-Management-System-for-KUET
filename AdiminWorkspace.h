@@ -1,1 +1,4 @@
+#ifndef ADMINWORKSPACE_H
+#define ADMINWORKSPACE_H
 
+#endif
