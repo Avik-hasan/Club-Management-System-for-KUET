@@ -26,7 +26,7 @@ void adminmode()
    while(fscanf(fp1,"%s %d %d",clubname,&id,&pass)!=EOF){
      if(strcmp(Club,clubname)==0&&(id==ID)&&(pass==password)){
        printf("welcome %s admin\n",clubname);
-         
+         AdiminWorkspace();
        is_found=1;
        break;
      }
@@ -37,3 +37,4 @@ void adminmode()
     getchar();
 
 }
+
